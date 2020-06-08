@@ -1,4 +1,4 @@
-module github.com/ridwankustanto/first-go-module
+module github.com/ridwankustanto/first-go-module/v2
 
 go 1.13
 
