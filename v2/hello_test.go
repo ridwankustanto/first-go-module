@@ -22,3 +22,10 @@ func TestGlass(t *testing.T) {
 		t.Errorf("Glass() = %q, want %q", got, want)
 	}
 }
+
+func TestOpt(t *testing.T) {
+	want := "If a program is too slow, it must have a loop."
+	if got := Opt(); got != want {
+		t.Errorf("Glass() = %q, want %q", got, want)
+	}
+}

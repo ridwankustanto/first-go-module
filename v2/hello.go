@@ -15,3 +15,7 @@ func Proverb() string {
 func Glass() string {
 	return quoteV3.GlassV3()
 }
+
+func Opt() string {
+	return quoteV3.OptV3()
+}
